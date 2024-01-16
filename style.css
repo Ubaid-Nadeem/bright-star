@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -21,7 +21,7 @@
     color: #FFFFFF;
     /* padding: 30px; */
     padding-left: 20px;
-   padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 .main-content h1 {
@@ -35,6 +35,10 @@
     margin-top: 50px;
 }
 
+.para {
+    max-width: 50%;
+}
+
 .main-btn {
     margin-top: 20px;
     width: 200px;
@@ -46,7 +50,7 @@
     text-align: center;
     padding-top: 8px;
     clip-path: polygon(20% 0%, 98% 0, 88% 21%, 10% 21%);
-
+    cursor: pointer;
 }
 
 .custom-shape-divider-bottom-1705364871 {
@@ -78,10 +82,10 @@
 }
 
 @media (max-width: 767px) {
-    .para{
+    .para {
         max-width: 70%;
     }
- 
+
     .custom-shape-divider-bottom-1705364871 svg {
         width: calc(100% + 1.3px);
         height: 65px;
