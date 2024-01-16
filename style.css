@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .logo-height {
     width: 70px;
     height: 70px;
@@ -14,8 +19,9 @@
 
 .main-content {
     color: #FFFFFF;
-    padding: 30px;
-    padding-top: 0;
+    /* padding: 30px; */
+    padding-left: 20px;
+   padding-bottom: 20px; 
 }
 
 .main-content h1 {
@@ -36,7 +42,7 @@
 
 .main-btn {
     margin-top: 20px;
-    width: 250px;
+    width: 200px;
     margin-left: -20px;
     height: 200px;
     /* background: #FFFFFF; */
@@ -77,6 +83,10 @@
 }
 
 @media (max-width: 767px) {
+    .para{
+        max-width: 70%;
+    }
+ 
     .custom-shape-divider-bottom-1705364871 svg {
         width: calc(100% + 1.3px);
         height: 65px;
