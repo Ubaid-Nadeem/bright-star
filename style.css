@@ -84,7 +84,7 @@
 
 @media (max-width: 767px) {
     .para{
-        max-width: 70%;
+        width: 70%;
     }
  
     .custom-shape-divider-bottom-1705364871 svg {
