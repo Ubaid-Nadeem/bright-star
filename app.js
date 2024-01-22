@@ -1,5 +1,11 @@
 const carouselElement = document.getElementById('carousel-example');
-
+const services = [{
+    name: 'Interior',
+    details: 'lorem hello world ',
+    price: '$150',
+    service_duration: '1 hour',
+    package: 'hello world'
+}]
 const items = [
     {
         position: 0,
@@ -62,6 +68,10 @@ const options = {
 
 // instance options object
 const instanceOptions = {
-  id: 'carousel-example',
-  override: true
+    id: 'carousel-example',
+    override: true
 };
+
+function showService() {
+    return services.name
+}
