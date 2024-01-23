@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo-height {
     width: 70px;
     height: 70px;
@@ -21,10 +25,22 @@
 }
 
 .main-content {
-    color: #FFFFFF;
-    /* padding: 30px; */
     padding-left: 20px;
     padding-bottom: 20px;
+    color: #FFFFFF;
+    /* padding: 30px; */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .main-content h1 {
@@ -47,13 +63,21 @@
     width: 200px;
     margin-left: -20px;
     height: 200px;
-    /* background: #FFFFFF; */
     background: rgb(220, 238, 238);
     background: linear-gradient(90deg, rgb(136, 224, 224) 0%, rgb(71, 200, 226) 84%);
     text-align: center;
     padding-top: 8px;
     clip-path: polygon(20% 0%, 98% 0, 88% 21%, 10% 21%);
     cursor: pointer;
+    color: white;
+}
+.main-btn button{
+    width: 100%;
+}
+.model-btn{
+    width: 150px;
+    height: 150px;
+    font-size: 0.7rem;
 }
 
 .custom-shape-divider-bottom-1705364871 {
